@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600;700;800;900&display=swap');
+
+
 .App {
   text-align: center;
+  max-width:1440px;  
+  min-width: 375px;  
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -27,7 +34,140 @@
 .App-link {
   color: #61dafb;
 }
+.Hero{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;  
+}
+.Hero img{
+  display: block;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 50px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  color:white;
+}
+.header-left,
+.footer-logo{
+  font-family: 'Barlow';
+  font-weight: 800;
+  font-size: 24px;
+}
+.header-right{
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 14px;
+}
+.heroText{
+  position: absolute;
+  top: 183px;
+  font-family: 'Fraunces';
+  font-weight: 700;
+  color: white;
+  font-size: 48px;
+  letter-spacing: 5px;
+  width: 100%;
+}
+.header-left img{
+  display: none;
+}
 
+.arrow-down{
+  margin: 0 auto;
+  margin-top: 110px;
+}
+.nav-item{
+  padding-right: 66px;
+}
+.nav-item.last{
+  padding-right: 23px;
+}
+.contact{
+  background: white;
+  padding: 13px 23px;
+  border-radius: 24px;
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+}
+.contact:hover{
+  color: white;
+  background: #82D5FF;
+}
+.container{
+  display: flex;
+}
+.container.reverse{
+  flex-direction: row-reverse;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 50%;
+}
+.item img{
+  width : 100%;
+}
+
+.testimonials{
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.testimonials h1{
+  width: 100%;
+  color: #A5A5A5;
+  font-size: 24px;
+}
+.testimonial-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image-spread {
+  display: flex;
+  flex-direction: row;
+}
+.image-spread img{
+  width: 25%;
+  display: block;
+}
+
+.footer{
+  box-sizing: content-box;
+  padding-top: 80px;
+  background: #89D0C2;
+  color: #458C7E;
+}
+.footer-nav{
+  margin-top: 36px; 
+}
+.footer-nav span{
+  padding: 30px; 
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 16px; 
+}
+.footer-nav span:hover,
+.footer-social img:hover
+{
+  color:white;
+}
+
+.footer-social img{
+  width : 25px;
+  padding: 80px 20px 70px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +175,103 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 900px) {
+
+  .header {
+    padding: 40px 20px;
+  }
+  
+  .header-right{
+    background: white;
+    color: gray;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    z-index: 1;
+}
+.hidden{
+  display: none!important;
+}
+.header-left{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left img{
+  display: block;
+  height: 18px;
+}
+
+
+  .nav-item {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+  .nav-item.last {
+    padding-right: 0;
+  }
+  .contact {
+    background: #ffaa27;
+  }
+  .contact:hover{
+    color: black;
+    background: #ffaa27;
+  }
+
+  .arrow-down {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+  .testimonial-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonials h1{
+    margin-block-end: 50px
+  }
+  
+  .container{
+      flex-direction: column-reverse;
+  }
+  .container.reverse{
+      flex-direction: column-reverse;
+  }
+  .App {
+    max-width:375px;    
+    margin: 0 auto;
+  }
+  .image-spread {
+    flex-wrap: wrap;
+  }
+  .image-spread img{
+    width: 50%;
+    display: block;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+
+  .action{
+    text-align: center;
+  }
+
+  .highlight {
+    margin : 0 auto;
+  }
+
 }
