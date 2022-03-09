@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FM-sunnyside-agency/static/css/main.4d50f9fb.css",
+    "main.js": "/FM-sunnyside-agency/static/js/main.0e7d7fed.js",
+    "static/js/787.e680bde8.chunk.js": "/FM-sunnyside-agency/static/js/787.e680bde8.chunk.js",
+    "static/media/image-header.jpg": "/FM-sunnyside-agency/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/FM-sunnyside-agency/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/FM-sunnyside-agency/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/FM-sunnyside-agency/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/FM-sunnyside-agency/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/FM-sunnyside-agency/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/FM-sunnyside-agency/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/icon-instagram.svg": "/FM-sunnyside-agency/static/media/icon-instagram.7d97118aca6da4dd308fbe5b0ad8b9d6.svg",
+    "static/media/icon-pinterest.svg": "/FM-sunnyside-agency/static/media/icon-pinterest.fd8b84da3f15023f2ae8d359495f43db.svg",
+    "index.html": "/FM-sunnyside-agency/index.html",
+    "static/media/icon-twitter.svg": "/FM-sunnyside-agency/static/media/icon-twitter.23df5d421d6e70c35715be06e375f403.svg",
+    "static/media/icon-facebook.svg": "/FM-sunnyside-agency/static/media/icon-facebook.101bd07e99eaeae8b0f594d4908d92b0.svg",
+    "static/media/icon-arrow-down.svg": "/FM-sunnyside-agency/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "static/media/icon-hamburger.svg": "/FM-sunnyside-agency/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
+    "main.4d50f9fb.css.map": "/FM-sunnyside-agency/static/css/main.4d50f9fb.css.map",
+    "main.0e7d7fed.js.map": "/FM-sunnyside-agency/static/js/main.0e7d7fed.js.map",
+    "787.e680bde8.chunk.js.map": "/FM-sunnyside-agency/static/js/787.e680bde8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d50f9fb.css",
+    "static/js/main.0e7d7fed.js"
+  ]
+}
